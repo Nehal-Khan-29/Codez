@@ -4,9 +4,9 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="css.css">
+        <link rel="stylesheet" href="assets/css.css">
         <title>Codez - A good place to collab safe </title>
-        <link rel="icon" href="codez-logo-1-ico.ico" type="image/x-icon">
+        <link rel="icon" href="assets/img/codez-logo-1-ico.ico" type="image/x-icon">
     </head>  
 
     <body>
@@ -15,7 +15,7 @@
 
 <!-- ----------------------------------------------------front---------------------------------------------------- -->
             
-        <div><img class="codezlogo" src="codez_logo.png" alt="Codez Logo"></div>
+        <div><img class="codezlogo" src="assets/img/codez_logo.png" alt="Codez Logo"></div>
 
         <div id="front" class="front">
             
@@ -23,8 +23,8 @@
             <span class="typing2"></span><br><br>
             <button class="downl">
                 <div>
-                    <img src="downl_button.png">
-                    <a href="https://drive.google.com/uc?export=download&id=1ychUo3kWGVlY889GyR61rQU8jZgMzgy7">Download Codez - 97mb</a>
+                    <img src="assets/img/downl_button.png">
+                    <a href="https://drive.google.com/uc?export=download&id=19ExJF3tN_LpOa2nbgRBUx9C-EHr0rawq">Download Codez</a>
                 </div>
             </button>
 
@@ -38,27 +38,27 @@
 
             <div id="text-container2">
                 <p><strong>Unified Work Environment: </strong><br><br>CODEZ provides a single workspace for your team to work, communicate, and collaborate without switching between software, enhancing productivity.</p>
-                <img src="img1.png" alt="Unified Work Environment">
+                <img src="assets/img/img1.png" alt="Unified Work Environment">
             </div>
 
             <div id="text-container1">
-                <img src="img3.png" alt="File Sharing">
+                <img src="assets/img/img3.png" alt="File Sharing">
                 <p><strong>File Sharing: </strong><br><br>CODEZ offers a secure and efficient way to share files, ensuring easy access to the latest project assets.</p>
             </div>
 
             <div id="text-container2">
                 <p><strong>Real-Time Communication: </strong><br><br>Stay connected effortlessly with our chat feature, eliminating the need for constant email exchanges or external messaging tools.</p>
-                <img src="img2.png" alt="Real-Time Communication">
+                <img src="assets/img/img2.png" alt="Real-Time Communication">
             </div>
 
             <div id="text-container1">
-                <img src="img4.png" alt="Version Control">
+                <img src="assets/img/img4.png" alt="Version Control">
                 <p><strong>Version Control: </strong><br><br>Simplified version control in CODEZ makes it easy to identify and work with the most up-to-date project files.</p>
             </div>
 
             <div id="text-container2">
                 <p><strong>To-Do Lists: </strong><br><br>Manage projects efficiently with our intuitive to-do list feature, enabling task tracking, assignments, and progress monitoring to meet deadlines.</p>
-                <img src="img5.png" alt="To-Do Lists">
+                <img src="assets/img/img5.png" alt="To-Do Lists">
             </div>
 
             <div id="text-container1"><p>Your Data, Our Priority We take data security very seriously. The databases used in the CODEZ platform are meticulously protected to ensure the utmost confidentiality and security of your project information. You can rest assured that your sensitive data will remain safe and secretive, allowing you to focus on your work with peace of mind. </p>
@@ -75,9 +75,9 @@
 
             <ul class="allworks">
                     
-                <li id="w" class="c1"><img id= "workbox" src="1.png" alt="1"></li>
-                <li id="w" class="c2"><img id= "workbox" src="2.png" alt="2"></li>
-                <li id="w" class="c3"><img id= "workbox" src="3.png" alt="3"></li>
+                <li id="w" class="c1"><img id= "workbox" src="assets/img/1.png" alt="1"></li>
+                <li id="w" class="c2"><img id= "workbox" src="assets/img/2.png" alt="2"></li>
+                <li id="w" class="c3"><img id= "workbox" src="assets/img/3.png" alt="3"></li>
             
             </ul>
 
@@ -90,30 +90,14 @@
             <div class="probtext">Facing any problem, just send a message below</div> <br><br>
 
             <div class="contact-form-div">
-                <table class="contact-form">
-                    <form action="https://formsubmit.co/c475166c4b58aaeb06af0d2751f29e03" method="POST">
-                        <tr>
-                            <td class="form-group-title">Name</td>
-                            <td><input type="text" name="name" id="name" placeholder="Your Name"></td>
-                        </tr>
-                        <tr>
-                            <td class="form-group-title">Email</td>
-                            <td><input type="email" name="email" id="email" placeholder="Your Email"></td>
-                        </tr>
-                        <tr>
-                            <td class="form-group-title">Subject</td>
-                            <td><input type="text" name="subject" id="subject" placeholder="Your Subject"></td>
-                        </tr>
-                        <tr>
-                            <td class="form-group-title">Message</td>
-                            <td><textarea name="message" id="message" placeholder="Your Message"></textarea></td>
-                        </tr>
-                        <tr>
-                            <td></td>
-                            <td><button type="submit" class="btn-md">Send</button></td>
-                        </tr>
-                    </form>
-                </table>
+                <form action="https://api.web3forms.com/submit" method="POST">
+                    <input type="hidden" name="access_key" value="902290a4-3dff-4c48-8a13-c30993f36312">
+                    <input type="text" name="name" id="name" placeholder="Your Name" required>
+                    <input type="email" name="email" id="email" placeholder="Your Email" required>
+                    <input type="text" name="subject" id="subject" placeholder="Your Subject" value="Codez support" required>
+                    <textarea name="message" id="message" placeholder="Your Message" required></textarea>
+                    <button type="submit" class="btn-md">Send</button>
+                </form>
             </div>
 
         </div> 
@@ -127,7 +111,7 @@
     
 
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11/lib/typed.min.js"></script>
-    <script src="js.js"></script>  
+    <script src="assets/js.js"></script>  
 
     </body>
 
